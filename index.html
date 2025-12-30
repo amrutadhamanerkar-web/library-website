@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Library Management System</title>
+    <title>Library Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
-<h1>Library Website</h1>
+
+<header>
+    <h1>📚 Welcome to Library Management System</h1>
+    <p>Simple Library Website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Members</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>📖 Available Books</h2>
+        <ul>
+            <li>Java Programming</li>
+            <li>C++ Basics</li>
+            <li>Web Development</li>
+            <li>Data Structures</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>👤 Library Members</h2>
+        <p>Students and staff can register to issue books.</p>
+    </div>
+
+    <div class="card">
+        <h2>📞 Contact</h2>
+        <p>Email: library@example.com</p>
+        <p>Phone: 1234567890</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Library Management System
+</footer>
+
 </body>
 </html>
